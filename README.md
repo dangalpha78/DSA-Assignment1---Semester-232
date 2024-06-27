@@ -107,7 +107,7 @@ In summary, the tool will learn from X_train and y_train, then make predictions 
 
 #
 
-# HOW TO RUN
+# Usage Summary
 1. Open main.cpp: Locate and open main.cpp in your editor.
 
 2. Run tc7(): Ensure tc7() is called within main.cpp.
