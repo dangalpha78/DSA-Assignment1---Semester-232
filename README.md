@@ -106,3 +106,18 @@ After splitting the data into features and labels, we usually divide the data in
 In summary, the tool will learn from X_train and y_train, then make predictions on X_test. The prediction results will be compared with y_test to assess the accuracy of the predictions. Students can refer to sample test cases to see the training and prediction process in action.
 
 #
+
+# HOW TO RUN
+1. Open main.cpp: Locate and open main.cpp in your editor.
+
+2. Run tc7(): Ensure tc7() is called within main.cpp.
+
+3. Compile: Use g++ to compile the project:
+g++ -o main main.cpp kNN.cpp -I . -std=c++11
+
+4. Execute: Run the compiled program:
+./main
+
+5. Output: The program executes tc7(), loading mnist.csv, performing kNN classification, and printing the accuracy.
+
+Ensure g++ is installed and mnist.csv is accessible in the same directory or specified path.
